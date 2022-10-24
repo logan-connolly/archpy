@@ -1,4 +1,4 @@
-from archpy import model, exception
+from . import exception, model
 
 
 def allocate(line: model.OrderLine, batches: list[model.Batch]) -> str:

@@ -1,7 +1,7 @@
 from __future__ import annotations
 
-import datetime
 import dataclasses
+import datetime
 from typing import Optional
 
 
@@ -12,7 +12,6 @@ class OrderLine:
     qty: int
 
 
-@dataclasses.dataclass
 class Batch:
     def __init__(
         self, id: str, sku: str, qty: int, eta: Optional[datetime.date] = None
