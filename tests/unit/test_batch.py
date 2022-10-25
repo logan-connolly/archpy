@@ -1,4 +1,4 @@
-from archpy.allocations import model
+from archpy.domain.allocations import model
 
 
 def generate_batch_and_line(sku, batch_qty, line_qty):

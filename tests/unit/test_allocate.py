@@ -2,7 +2,7 @@ from datetime import date, timedelta
 
 import pytest
 
-from archpy.allocations import exception, model, service
+from archpy.domain.allocations import exception, model, service
 
 
 @pytest.fixture
